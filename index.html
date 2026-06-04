@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IELTS Through Real Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="IELTS Through Real Stories home">
+      <span class="brand-mark">IR</span>
+      <span>IELTS Real Stories</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#studio">Studio</a>
+      <a href="#episodes">Episodes</a>
+      <a href="#skills">Skills</a>
+      <a href="#progress">Progress</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/story-map.png" alt="Illustrated real-life IELTS story scenes across a city map">
+      <div class="hero-panel">
+        <p class="eyebrow">Story-first IELTS practice</p>
+        <h1 id="hero-title">Learn all 4 IELTS skills through real-life episodes.</h1>
+        <p class="hero-copy">Choose a story, step into the situation, then practise reading, listening, speaking, and writing with tasks that feel like life instead of a workbook.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#studio">Start today</a>
+          <a class="secondary-action" href="#episodes">Pick a story</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band" aria-label="Learning summary">
+      <div>
+        <strong>24</strong>
+        <span>story missions</span>
+      </div>
+      <div>
+        <strong>4</strong>
+        <span>IELTS skills in each episode</span>
+      </div>
+      <div>
+        <strong>12m</strong>
+        <span>daily practice path</span>
+      </div>
+      <div>
+        <strong>7+</strong>
+        <span>band-focused language moves</span>
+      </div>
+    </section>
+
+    <section id="studio" class="studio section-grid" aria-labelledby="studio-title">
+      <div class="section-intro">
+        <p class="eyebrow">Today's mission</p>
+        <h2 id="studio-title">The lost backpack at the metro station</h2>
+        <p>You are new in the city. Your passport, charger, and notebook are inside a backpack you left on a train. Every IELTS task grows from this one real situation.</p>
+      </div>
+
+      <div class="lesson-shell">
+        <aside class="episode-card" aria-label="Selected story">
+          <div class="episode-visual">
+            <img src="assets/story-map.png" alt="City scenes showing the metro station story">
+          </div>
+          <div class="episode-body">
+            <span class="level-pill">Band 5.5 to 7.0</span>
+            <h3>Real-life outcome</h3>
+            <p>Report a problem, understand instructions, describe what happened, and write a clear request for help.</p>
+            <div class="episode-meter">
+              <span style="width: 62%"></span>
+            </div>
+            <small>62% of this mission completed</small>
+          </div>
+        </aside>
+
+        <section class="practice-board" id="skills" aria-labelledby="practice-title">
+          <div class="practice-head">
+            <div>
+              <p class="eyebrow">Skill studio</p>
+              <h2 id="practice-title">Practise one story from four angles</h2>
+            </div>
+            <div class="streak" aria-label="Current streak">
+              <strong>5</strong>
+              <span>day streak</span>
+            </div>
+          </div>
+
+          <div class="skill-tabs" role="tablist" aria-label="IELTS skill tabs">
+            <button class="skill-tab active" type="button" role="tab" aria-selected="true" data-skill="reading">Reading</button>
+            <button class="skill-tab" type="button" role="tab" aria-selected="false" data-skill="listening">Listening</button>
+            <button class="skill-tab" type="button" role="tab" aria-selected="false" data-skill="speaking">Speaking</button>
+            <button class="skill-tab" type="button" role="tab" aria-selected="false" data-skill="writing">Writing</button>
+          </div>
+
+          <article class="skill-panel active" id="reading-panel" data-panel="reading">
+            <div class="task-layout">
+              <div class="story-text">
+                <h3>Reading scene</h3>
+                <p>At 8:20 a.m., Linh realised her backpack was no longer beside her seat. She walked to the information desk, where a staff member asked for the train number, the colour of the bag, and a list of important items inside. Linh felt nervous, but she gave short, accurate details and received a reference code.</p>
+                <p>The staff member explained that lost property reports are usually checked within forty-eight hours. If the bag is found, Linh must bring photo ID and describe one item that is not visible from outside the bag.</p>
+              </div>
+              <form class="quiz" data-quiz="reading">
+                <label>
+                  <span>What must Linh bring if the backpack is found?</span>
+                  <select data-answer="photo id">
+                    <option value="">Choose an answer</option>
+                    <option value="train ticket">A train ticket</option>
+                    <option value="photo id">Photo ID</option>
+                    <option value="cash receipt">A cash receipt</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Reports are usually checked within...</span>
+                  <select data-answer="48 hours">
+                    <option value="">Choose an answer</option>
+                    <option value="12 hours">12 hours</option>
+                    <option value="48 hours">48 hours</option>
+                    <option value="one week">one week</option>
+                  </select>
+                </label>
+                <button class="check-btn" type="button" data-check="reading">Check answers</button>
+                <p class="feedback" aria-live="polite"></p>
+              </form>
+            </div>
+          </article>
+
+          <article class="skill-panel" id="listening-panel" data-panel="listening">
+            <div class="task-layout">
+              <div class="audio-card">
+                <button class="play-button" type="button" data-play>Hide</button>
+                <div>
+                  <h3>Station announcement</h3>
+                  <p class="transcript">"Passengers who left personal items on the Green Line should visit Counter 3 before 6 p.m. Please prepare a description of the item and your journey details."</p>
+                </div>
+              </div>
+              <form class="quiz" data-quiz="listening">
+                <label>
+                  <span>Which counter should passengers visit?</span>
+                  <input type="text" data-answer="counter 3" placeholder="Type your answer">
+                </label>
+                <label>
+                  <span>What two details should they prepare?</span>
+                  <input type="text" data-answer="description journey" placeholder="Example: item description and journey details">
+                </label>
+                <button class="check-btn" type="button" data-check="listening">Check answers</button>
+                <p class="feedback" aria-live="polite"></p>
+              </form>
+            </div>
+          </article>
+
+          <article class="skill-panel" id="speaking-panel" data-panel="speaking">
+            <div class="speaking-grid">
+              <div class="cue-card">
+                <p class="eyebrow">Part 2 cue card</p>
+                <h3>Describe a time you lost something important.</h3>
+                <p>You should say what you lost, where it happened, what you did next, and explain how you felt afterwards.</p>
+              </div>
+              <div class="timer-card">
+                <span class="timer" data-timer>01:00</span>
+                <div class="timer-actions">
+                  <button class="check-btn" type="button" data-timer-start>Start prep</button>
+                  <button class="ghost-btn" type="button" data-timer-reset>Reset</button>
+                </div>
+                <p>Use the minute to collect three verbs, two feelings, and one result.</p>
+              </div>
+            </div>
+            <div class="language-bank">
+              <button type="button">I realised that...</button>
+              <button type="button">The first thing I did was...</button>
+              <button type="button">Looking back, I should have...</button>
+              <button type="button">It taught me to...</button>
+            </div>
+          </article>
+
+          <article class="skill-panel" id="writing-panel" data-panel="writing">
+            <div class="writing-workbench">
+              <div>
+                <h3>Writing Task 1: request email</h3>
+                <p>Write to the lost property office. Explain what happened, describe the backpack, and ask what you should do next.</p>
+                <ul class="writing-points">
+                  <li>Open with the purpose of your email.</li>
+                  <li>Give exact details: time, line, colour, items.</li>
+                  <li>End with a polite request and contact details.</li>
+                </ul>
+              </div>
+              <label class="draft-box">
+                <span>Your first paragraph</span>
+                <textarea placeholder="Dear Lost Property Team, I am writing because..."></textarea>
+              </label>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section id="episodes" class="episodes" aria-labelledby="episodes-title">
+      <div class="section-intro compact">
+        <p class="eyebrow">Story library</p>
+        <h2 id="episodes-title">Real situations that create useful language</h2>
+      </div>
+      <div class="episode-list">
+        <article class="story-option active" tabindex="0">
+          <span>Metro station</span>
+          <strong>Lost backpack</strong>
+          <small>Requests, descriptions, instructions</small>
+          <a class="reference-link" href="https://lostandfound.mta.info/" target="_blank" rel="noopener noreferrer">Reference: MTA Lost & Found</a>
+        </article>
+        <article class="story-option" tabindex="0">
+          <span>Shared apartment</span>
+          <strong>The noisy neighbour</strong>
+          <small>Complaints, opinions, solutions</small>
+          <a class="reference-link" href="https://www.sf.gov/information--noise-problems" target="_blank" rel="noopener noreferrer">Reference: SF.gov noise problems</a>
+        </article>
+        <article class="story-option" tabindex="0">
+          <span>First job</span>
+          <strong>A difficult customer</strong>
+          <small>Feelings, problem solving, tone</small>
+          <a class="reference-link" href="https://extension.okstate.edu/fact-sheets/dealing-with-difficult-customers" target="_blank" rel="noopener noreferrer">Reference: Oklahoma State University</a>
+        </article>
+        <article class="story-option" tabindex="0">
+          <span>Clinic visit</span>
+          <strong>The missed appointment</strong>
+          <small>Reasons, apologies, rescheduling</small>
+          <a class="reference-link" href="https://www.va.gov/jackson-health-care/programs/dont-be-a-no-show-another-veterans-care-could-depend-on-it/" target="_blank" rel="noopener noreferrer">Reference: Veterans Affairs</a>
+        </article>
+      </div>
+
+      <div class="ai-review" aria-labelledby="ai-review-title">
+        <div class="section-intro compact">
+          <p class="eyebrow">LLM story check</p>
+          <h2 id="ai-review-title">Is each story exciting enough?</h2>
+          <p>The checker scores real-life stakes, conflict, urgency, emotional movement, outcome, and IELTS task fit. Stories below 75 should get a stronger twist before becoming a lesson.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card" data-review data-title="Lost backpack" data-stakes="2" data-conflict="2" data-urgency="2" data-emotion="2" data-outcome="2" data-ielts-fit="2">
+            <span class="review-badge">Checking</span>
+            <h3>Lost backpack</h3>
+            <p data-review-reason></p>
+            <strong data-review-score></strong>
+          </article>
+          <article class="review-card" data-review data-title="The noisy neighbour" data-stakes="1" data-conflict="2" data-urgency="1" data-emotion="2" data-outcome="2" data-ielts-fit="2">
+            <span class="review-badge">Checking</span>
+            <h3>The noisy neighbour</h3>
+            <p data-review-reason></p>
+            <strong data-review-score></strong>
+          </article>
+          <article class="review-card" data-review data-title="A difficult customer" data-stakes="2" data-conflict="2" data-urgency="2" data-emotion="2" data-outcome="1" data-ielts-fit="2">
+            <span class="review-badge">Checking</span>
+            <h3>A difficult customer</h3>
+            <p data-review-reason></p>
+            <strong data-review-score></strong>
+          </article>
+          <article class="review-card" data-review data-title="The missed appointment" data-stakes="1" data-conflict="1" data-urgency="2" data-emotion="1" data-outcome="2" data-ielts-fit="2">
+            <span class="review-badge">Checking</span>
+            <h3>The missed appointment</h3>
+            <p data-review-reason></p>
+            <strong data-review-score></strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="progress" class="progress-section" aria-labelledby="progress-title">
+      <div>
+        <p class="eyebrow">Your path</p>
+        <h2 id="progress-title">Tiny daily missions, visible progress</h2>
+        <p>Each episode ends with a useful outcome: a message sent, a problem explained, a choice defended, or a story told with confidence.</p>
+      </div>
+      <div class="progress-grid">
+        <div class="progress-item done"><span></span>Read the scene</div>
+        <div class="progress-item done"><span></span>Catch key details</div>
+        <div class="progress-item"><span></span>Speak for 2 minutes</div>
+        <div class="progress-item"><span></span>Write the request</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
