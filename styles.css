@@ -588,6 +588,132 @@ textarea {
   background: var(--canvas);
 }
 
+.coach-controls {
+  padding: 0 24px;
+  background: var(--canvas);
+}
+
+.coach-domain-label {
+  display: grid;
+  gap: 8px;
+}
+
+.coach-domain-label span {
+  font-weight: 700;
+}
+
+.coach-result {
+  display: none;
+  padding: 20px 24px;
+  background: var(--canvas);
+  border-top: 2px solid var(--canvas-soft);
+}
+
+.coach-result.visible {
+  display: grid;
+  gap: 16px;
+}
+
+.coach-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.coach-band {
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.band-strong {
+  background: var(--primary-pale);
+  color: var(--positive-deep);
+}
+
+.band-developing {
+  background: var(--warning);
+  color: var(--ink);
+}
+
+.band-weak {
+  background: var(--negative);
+  color: var(--canvas);
+}
+
+.coach-score {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.coach-words {
+  margin-left: auto;
+  color: var(--body);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.coach-checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.coach-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.coach-check.pass {
+  background: var(--primary-pale);
+  color: var(--positive-deep);
+}
+
+.coach-check.miss {
+  background: #fff0f0;
+  color: var(--negative);
+}
+
+.coach-icon {
+  flex: 0 0 20px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.coach-tips {
+  border-radius: var(--radius-md);
+  background: var(--canvas-soft);
+  padding: 12px 16px;
+}
+
+.coach-tips summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.coach-tips ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: var(--body);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.writing-workbench {
+  grid-template-columns: 1fr;
+}
+
 .episodes {
   background: var(--canvas-soft);
 }

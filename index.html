@@ -189,10 +189,22 @@
                   <li>End with a polite request and contact details.</li>
                 </ul>
               </div>
+              <div class="coach-controls">
+                <label class="coach-domain-label">
+                  <span>Writing domain</span>
+                  <select data-domain>
+                    <option value="email">Email</option>
+                    <option value="job">Job application</option>
+                    <option value="paper">Academic paper</option>
+                  </select>
+                </label>
+              </div>
               <label class="draft-box">
                 <span>Your first paragraph</span>
                 <textarea placeholder="Dear Lost Property Team, I am writing because..."></textarea>
               </label>
+              <button class="check-btn" type="button" data-analyse>Analyse my writing</button>
+              <div class="coach-result" data-writing-result aria-live="polite"></div>
             </div>
           </article>
         </section>
